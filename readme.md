@@ -10,6 +10,8 @@ This project uses [Microsoft Playwright](https://playwright.dev/) to automate en
 - `tests/`: Playwright test specs
 - `.env`: Stores environment variables like credentials and URLs
 
+---
+
 ### Getting Started (VS Code)
 
 Prerequisites
@@ -31,14 +33,20 @@ npm install
 Install Playwright browsers:
 npx playwright install
 
+---
+
 ### Browsers
 
 1. Chrome
 2. Firefox
 
+---
+
 ### Set environment variables
 
 Find variables in the .env file located in the main project folder.
+
+---
 
 ### Running Tests
 
@@ -57,6 +65,8 @@ npx playwright test tests/shopping_cart_functionality.spec.js
 Run in Specific Browser:
 npx playwright test --project=chromium
 npx playwright test --project=firefox
+
+---
 
 ### View Traces and Reports
 
