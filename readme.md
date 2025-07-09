@@ -22,8 +22,6 @@ Prerequisites
 
 ### Installation
 
-**Clone the repo:**
-
 git clone https://github.com/TevanPatrick/sauce-lab-automation-tests
 cd your-repo
 
@@ -50,19 +48,19 @@ Find variables in the .env file located in the main project folder.
 
 ### Running Tests
 
-Run all tests:
+**Run all tests**
 npx playwright test
 
-Run in headed mode (for debugging):
+**Run in headed mode (for debugging)**
 npx playwright test --headed
 
-Pause on a step:
+**Pause on a step**
 npx playwright test --debug
 
-Run a specific test file:
+**Run a specific test file**
 npx playwright test tests/shopping_cart_functionality.spec.js
 
-Run in Specific Browser:
+**Run in Specific Browser**
 npx playwright test --project=chromium
 npx playwright test --project=firefox
 
@@ -70,11 +68,11 @@ npx playwright test --project=firefox
 
 ### View Traces and Reports
 
-Generate trace:
+**Generate trace**
 npx playwright test --trace on
 
-Open trace viewer:
+**Open trace viewer**
 npx playwright show-trace trace.zip
 
-View HTML report:
+**View HTML report**
 npx playwright show-report
