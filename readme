@@ -1,16 +1,16 @@
-# 🎭 Playwright UI Test Automation
+### 🎭 Playwright UI Test Automation
 
 This project uses [Microsoft Playwright](https://playwright.dev/) to automate end-to-end (E2E) UI tests for a web application, including login, cart operations, checkout flow, and visual checks.
 
 ---
 
-# Project Structure
+### Project Structure
 
 - `page-objects/`: Page Object Model (POM) classes for reusability
 - `tests/`: Playwright test specs
 - `.env`: Stores environment variables like credentials and URLs
 
-# Getting Started (VS Code)
+### Getting Started (VS Code)
 
 Prerequisites
 
@@ -22,7 +22,6 @@ Prerequisites
 
 **Clone the repo:**
 
-```bash
 git clone https://github.com/TevanPatrick/sauce-lab-automation-tests
 cd your-repo
 
@@ -32,16 +31,16 @@ npm install
 Install Playwright browsers:
 npx playwright install
 
-# Browsers
+### Browsers
 
 1. Chrome
 2. Firefox
 
-# Set environment variables
+### Set environment variables
 
 Find variables in the .env file located in the main project folder.
 
-# Running Tests
+### Running Tests
 
 Run all tests:
 npx playwright test
@@ -59,7 +58,7 @@ Run in Specific Browser:
 npx playwright test --project=chromium
 npx playwright test --project=firefox
 
-# View Traces and Reports
+### View Traces and Reports
 
 Generate trace:
 npx playwright test --trace on
@@ -69,4 +68,3 @@ npx playwright show-trace trace.zip
 
 View HTML report:
 npx playwright show-report
-```
