@@ -1,0 +1,25 @@
+{
+  "name": "sauce-lab-automation-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+   "scripts": {
+    "test": "npx playwright test --trace on",
+    "test:headed": "npx playwright test --headed --trace on",
+    "test:debug": "npx playwright test --debug",
+    "test:chrome": "npx playwright test --project=chromium --trace on",
+    "test:firefox": "npx playwright test --project=firefox --trace on",
+    "test:chrome:headed": "npx playwright test --project=chromium --headed --trace on",
+    "test:firefox:headed": "npx playwright test --project=firefox --headed --trace on",
+    "test:chrome:debug": "npx playwright test --project=chromium --debug",
+    "test:firefox:debug": "npx playwright test --project=firefox --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.53.2",
+    "@types/node": "^24.0.10",
+    "dotenv": "^17.0.1"
+  }
+}
