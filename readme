@@ -4,16 +4,44 @@ This project uses [Microsoft Playwright](https://playwright.dev/) to automate en
 
 ---
 
-# Browsers:
+# Project Structure
+
+- `page-objects/`: Page Object Model (POM) classes for reusability
+- `tests/`: Playwright test specs
+- `.env`: Stores environment variables like credentials and URLs
+
+# Getting Started (VS Code)
+
+Prerequisites
+
+- [Node.js](https://nodejs.org/) v18+
+- [VS Code](https://code.visualstudio.com/)
+- Playwright Test extension (optional)
+
+### Installation
+
+**Clone the repo:**
+
+```bash
+git clone https://github.com/TevanPatrick/sauce-lab-automation-tests
+cd your-repo
+
+Install dependencies
+npm install
+
+Install Playwright browsers:
+npx playwright install
+
+# Browsers
 
 1. Chrome
 2. Firefox
 
-# Set environment variables:
+# Set environment variables
 
 Find variables in the .env file located in the main project folder.
 
-# Running Tests:
+# Running Tests
 
 Run all tests:
 npx playwright test
@@ -41,3 +69,4 @@ npx playwright show-trace trace.zip
 
 View HTML report:
 npx playwright show-report
+```
