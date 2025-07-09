@@ -49,30 +49,38 @@ Find variables in the .env file located in the main project folder.
 ### Running Tests
 
 **Run all tests**
-npx playwright test
+
+- npx playwright test
 
 **Run in headed mode (for debugging)**
-npx playwright test --headed
+
+- npx playwright test --headed
 
 **Pause on a step**
-npx playwright test --debug
+
+- npx playwright test --debug
 
 **Run a specific test file**
-npx playwright test tests/shopping_cart_functionality.spec.js
+
+- npx playwright test tests/shopping_cart_functionality.spec.js
 
 **Run in Specific Browser**
-npx playwright test --project=chromium
-npx playwright test --project=firefox
+
+- npx playwright test --project=chromium
+- npx playwright test --project=firefox
 
 ---
 
 ### View Traces and Reports
 
 **Generate trace**
-npx playwright test --trace on
+
+- npx playwright test --trace on
 
 **Open trace viewer**
-npx playwright show-trace trace.zip
+
+- npx playwright show-trace trace.zip
 
 **View HTML report**
-npx playwright show-report
+
+- npx playwright show-report
